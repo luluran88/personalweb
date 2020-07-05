@@ -95,7 +95,10 @@ content: "";
   width: 50%;
 }
 
-
+.covidhaha{
+    padding-top: 10px;
+   height: 550px;
+}
 
 #descriptioncolumn_left{
     float:left;
@@ -154,6 +157,10 @@ width: 70%;
 {font-size: 16px;
 color: gray;
 text-align: center}
+
+#msigif{
+width: 270px;
+margin: auto}
 
 .services-area .properties__button{float:right}@media only screen and (min-width: 768px) and (max-width: 991px){.services-area .properties__button{float:left}}@media only screen and (min-width: 576px) and (max-width: 767px){.services-area .properties__button{float:left}}@media (max-width: 575px){.services-area .properties__button{float:left}}.services-area .nav-tabs .nav-link{border:0;border-bottom:2px solid transparent;padding:10px 20px}@media only screen and (min-width: 992px) and (max-width: 1199px){.services-area .nav-tabs .nav-link{padding:10px 10px}}@media only screen and (min-width: 768px) and (max-width: 991px){.services-area .nav-tabs .nav-link{padding:10px 15px}}@media only screen and (min-width: 576px) and (max-width: 767px){.services-area .nav-tabs .nav-link{padding:10px 15px}}@media (max-width: 575px){.services-area .nav-tabs .nav-link{padding:10px 15px}}.services-area .nav-tabs::before{position:absolute;content:"";width:100%;height:2px;background:#e7ebf2;bottom:-1px;left:0}@media only screen and (min-width: 576px) and (max-width: 767px){.services-area .nav-tabs::before{display:none}}@media (max-width: 575px){.services-area .nav-tabs::before{display:none}}.services-area .nav-tabs .nav-item.show .nav-link,.services-area .nav-tabs .nav-link.active{background:none;border-bottom:2px solid #ff5757;z-index:5;position:relative}.services-area .nav-tabs .nav-item{display:block;color:#161e46;font-weight:500;text-transform:capitalize;font-size:16px}.services-area .nav-tabs{margin-bottom:9px;padding-bottom:0px;position:relative;border:0;display:flex;justify-content:center}@media only screen and (min-width: 768px) and (max-width: 991px){.services-area .nav-tabs{justify-content:start}}@media only screen and (min-width: 576px) and (max-width: 767px){.services-area .nav-tabs{justify-content:start}}@media (max-width: 575px){.services-area .nav-tabs{justify-content:start}}.tab-pane{-webkit-transition:all .6s ease-out 0s;-moz-transition:all .6s ease-out 0s;-ms-transition:all .6s ease-out 0s;-o-transition:all .6s ease-out 0s;transition:all .6s ease-out 0s}.wantToWork-area{background-image:url(../img/gallery/section_bg02.jpg);background-size:cover;background-repeat:no-repeat}.wantToWork-area .wantToWork-caption h2{color:#eaaca1;font-size:48px;font-weight:700;line-height:1.5;margin:0}@media only screen and (min-width: 768px) and (max-width: 991px){.wantToWork-area .wantToWork-caption h2{font-size:30px}}@media (max-width: 575px){.wantToWork-area .wantToWork-caption h2{font-size:25px;margin-bottom:20px}}.wantToWork-area .wantToWork-caption p{font-size:18px}@media only screen and (min-width: 576px) and (max-width: 767px){.wantToWork-area .wantToWork-btn{float:left;margin-top:30px}}@media (max-width: 575px){.wantToWork-area .wantToWork-btn{float:left;margin-top:30px}}@media only screen and (min-width: 768px) and (max-width: 991px){.wantToWork-area .wantToWork-btn{float:left;margin-top:30px}}.contact-info-area .contact-caption h3{font-size:48px;display:block;color:#000a2d;font-weight:600;margin-bottom:40px}@media only screen and (min-width: 576px) and (max-width: 767px){.contact-info-area .contact-caption h3{font-size:31px}}@media (max-width: 575px){.contact-info-area .contact-caption h3{font-size:28px;line-height:1.6}}.contact-info-area .contact-caption p{margin-bottom:40px}.contact-info-area .contact-wrapper input{background:#fff;height:60px;width:100%;padding:10px 26px;border:0;color:#a3a3a3;font-weight:500;text-transform:capitalize;border-radius:0px;border:0;margin-bottom:30px}.contact-info-area .contact-wrapper input::placeholder{color:#9696a7;font-weight:300;font-size:16px}.contact-info-area .contact-wrapper textarea{color:#a3a3a3;background:#fff;font-weight:500;letter-spacing:2px;text-transform:capitalize;height:160px;width:100%;padding:30px 26px;border:0;border-radius:0px;border:0;margin-bottom:30px}.contact-info-area .contact-wrapper textarea::placeholder{color:#9696a7;font-weight:300;font-size:16px}
 
