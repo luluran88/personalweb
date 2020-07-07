@@ -43,7 +43,7 @@ margin-top: 30px;}
 @media only screen and (min-width: 992px) and (max-width: 1199px){.about-me .about-me-caption h2{font-size:41px}}
 @media only screen and (min-width: 768px) and (max-width: 991px){.about-me .about-me-caption h2{font-size:35px}}
 @media only screen and (min-width: 576px) and (max-width: 767px){.about-me .about-me-caption h2{font-size:31px}}
-@media (max-width: 575px){.about-me .about-me-caption h2{font-size:24px;line-height:1.6}}.about-me .about-me-caption h5{padding-left:25px;border-left:2px solid #eaaca1;margin-bottom:30px}
+@media (max-width: 300px){.about-me .about-me-caption h2{font-size:24px;line-height:1.6}}.about-me .about-me-caption h5{padding-left:25px;border-left:2px solid #eaaca1;margin-bottom:30px}
 
 .divider{
     margin: 30px auto 60px auto;
@@ -82,7 +82,7 @@ margin-top: 30px;}
 .single-services:hover #overlay{opacity: 1}
 
 
-#interview, #cardsorting,#navigation, #usability, #description, #covidmoodcolumn:after{
+#interview, #cardsorting,#navigation, #usability, #description, #covidmood, #msiusability:after{
 content: "";
   display: table;
   clear: both;
@@ -90,14 +90,9 @@ content: "";
         padding: 10px
 }
 
-#interviewcolumn, #cardsortingcolumn, #navigationcolumn, #usabilitycolumn, #covidmoodcolumn{
+#interviewcolumn, #cardsortingcolumn, #navigationcolumn, #usabilitycolumn, #covidmoodcolumn {
  float: left;
   width: 50%;
-}
-
-.covidhaha{
-    padding-top: 10px;
-   height: 550px;
 }
 
 #descriptioncolumn_left{
@@ -136,14 +131,26 @@ content: "";
   }
 
 #aboutdescriptioncolumn_right{
-    float: left;
+    float:left;
     border-left: 1px solid #dadada;
     padding: 20px;
     width:30%;
    }
 
-@media only screen and (min-width: 576px) and (max-width: 767px){#interviewcolumn, #cardsortingcolumn, #navigationcolumn, #usabilitycolumn, #covidmoodcolumn, #descriptioncolumn_left, #descriptioncolumn_right, #descriptioncolumnmini_left, #descriptioncolumnmini_right, #aboutdescriptioncolumn_left, #aboutdescriptioncolumn_right{width: 100%; float: none}}
-@media (max-width: 575px){#interviewcolumn, #cardsortingcolumn, #navigationcolumn, #usabilitycolumn, #covidmoodcolumn, #descriptioncolumn_left, #descriptioncolumn_right, #descriptioncolumnmini_left, #descriptioncolumnmini_right, #aboutdescriptioncolumn_left, #aboutdescriptioncolumn_right, {width: 100%; float: none}}
+#msiusabilitycolumn_left{
+      float: left;
+    padding: 20px;
+    width:70%;
+}
+
+#msiusabilitycolumn_right{
+      float: left;
+    padding: 20px;
+    width:30%;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px){#interviewcolumn, #cardsortingcolumn, #navigationcolumn, #usabilitycolumn, #covidmoodcolumn, #descriptioncolumn_left, #descriptioncolumn_right, #descriptioncolumnmini_left, #descriptioncolumnmini_right, #aboutdescriptioncolumn_left, #aboutdescriptioncolumn_right, #msiusabilitycolumn_left, #msiusabilitycolumn_right, ##covidhifiimg{width: 100%; float: none}}
+@media (max-width: 575px){#interviewcolumn, #cardsortingcolumn, #navigationcolumn, #usabilitycolumn, #covidmoodcolumn, #descriptioncolumn_left, #descriptioncolumn_right, #descriptioncolumnmini_left, #descriptioncolumnmini_right, #aboutdescriptioncolumn_left, #aboutdescriptioncolumn_right, #aboutdescriptioncolumn_right, #msiusabilitycolumn_left, #msiusabilitycolumn_right, ##covidhifiimg {width: 100%; float: none}}
 
 #finding{
 margin: auto}
