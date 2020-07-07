@@ -149,8 +149,8 @@ content: "";
     width:30%;
 }
 
-@media only screen and (min-width: 576px) and (max-width: 767px){#interviewcolumn, #cardsortingcolumn, #navigationcolumn, #usabilitycolumn, #covidmoodcolumn, #descriptioncolumn_left, #descriptioncolumn_right, #descriptioncolumnmini_left, #descriptioncolumnmini_right, #aboutdescriptioncolumn_left, #aboutdescriptioncolumn_right, #msiusabilitycolumn_left, #msiusabilitycolumn_right, #covidhifiimg{width: 100%; float: none}}
-@media (max-width: 575px){#interviewcolumn, #cardsortingcolumn, #navigationcolumn, #usabilitycolumn, #covidmoodcolumn, #descriptioncolumn_left, #descriptioncolumn_right, #descriptioncolumnmini_left, #descriptioncolumnmini_right, #aboutdescriptioncolumn_left, #aboutdescriptioncolumn_right, #aboutdescriptioncolumn_right, #msiusabilitycolumn_left, #msiusabilitycolumn_right, #covidhifiimg {width: 100%; float: none}}
+@media only screen and (min-width: 576px) and (max-width: 767px){#interviewcolumn, #cardsortingcolumn, #navigationcolumn, #usabilitycolumn, #covidmoodcolumn, #descriptioncolumn_left, #descriptioncolumn_right, #descriptioncolumnmini_left, #descriptioncolumnmini_right, #aboutdescriptioncolumn_left, #aboutdescriptioncolumn_right, #msiusabilitycolumn_left, #msiusabilitycolumn_right{width: 100%; float: none}}
+@media (max-width: 575px){#interviewcolumn, #cardsortingcolumn, #navigationcolumn, #usabilitycolumn, #covidmoodcolumn, #descriptioncolumn_left, #descriptioncolumn_right, #descriptioncolumnmini_left, #descriptioncolumnmini_right, #aboutdescriptioncolumn_left, #aboutdescriptioncolumn_right, #aboutdescriptioncolumn_right, #msiusabilitycolumn_left, #msiusabilitycolumn_right{width: 100%; float: none}}
 
 #finding{
 margin: auto}
