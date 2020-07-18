@@ -82,7 +82,7 @@ margin-top: 30px;}
 .single-services:hover #overlay{opacity: 1}
 
 
-#interview, #cardsorting,#navigation, #usability, #description, #covidmood, #msiusability:after{
+#interview, #cardsorting, #navigation, #usability, #description, #covidmood, #msiusability:after{
 content: "";
   display: table;
   clear: both;
@@ -90,10 +90,12 @@ content: "";
         
 }
 
-#interviewcolumn, #cardsortingcolumn, #navigationcolumn, #usabilitycolumn, #covidmoodcolumn {
+#interviewcolumn, #navigationcolumn, #usabilitycolumn, #covidmoodcolumn {
  float: left;
   width: 50%;
 }
+
+
 
 #descriptioncolumn_left{
     float:left;
@@ -137,6 +139,16 @@ content: "";
     width:30%;
    }
 
+#cardsortingcolumn_left{
+     float: left;
+    width:100%;
+  }
+
+#cardsortingcolumn_right{
+    float: left;
+ 
+   }
+
 #msiusabilitycolumn_left{
       float: left;
     width:70%;
@@ -147,9 +159,46 @@ content: "";
     width:30%;
 }
 
-@media only screen and (min-width: 576px) and (max-width: 767px){#interviewcolumn, #cardsortingcolumn, #navigationcolumn, #usabilitycolumn, #covidmoodcolumn, #descriptioncolumn_left, #descriptioncolumn_right, #descriptioncolumnmini_left, #descriptioncolumnmini_right, #aboutdescriptioncolumn_left, #aboutdescriptioncolumn_right, #msiusabilitycolumn_left, #msiusabilitycolumn_right{width: 100%; float: none}}
-@media (max-width: 575px){#interviewcolumn, #cardsortingcolumn, #navigationcolumn, #usabilitycolumn, #covidmoodcolumn, #descriptioncolumn_left, #descriptioncolumn_right, #descriptioncolumnmini_left, #descriptioncolumnmini_right, #aboutdescriptioncolumn_left, #aboutdescriptioncolumn_right, #aboutdescriptioncolumn_right, #msiusabilitycolumn_left, #msiusabilitycolumn_right{width: 100%; float: none}}
+#cardsortingcolumn_left{
+ position: relative;}
 
+#prev, #next {
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        text-decoration: none;
+        opacity: 0.6;
+    position:absolute;
+    top:400px
+    }
+
+#prev:hover {
+        background-color:gainsboro;
+        opacity: 0.6;
+}
+#next:hover {
+        background-color:gainsboro;
+        opacity: 0.6;
+}
+
+
+#prev {left: -40px;}
+#next {right: 40px;}
+
+
+@media only screen and (min-width: 576px) and (max-width: 767px){#interviewcolumn, #cardsortingcolumn_left, #cardsortingcolumn_right, #navigationcolumn, #usabilitycolumn, #covidmoodcolumn, #descriptioncolumn_left, #descriptioncolumn_right, #descriptioncolumnmini_left, #descriptioncolumnmini_right, #aboutdescriptioncolumn_left, #aboutdescriptioncolumn_right, #msiusabilitycolumn_left, #msiusabilitycolumn_right{width: 100%; float: none}}
+@media (max-width: 575px){#interviewcolumn, #cardsortingcolumn_left, #cardsortingcolumn_right, #navigationcolumn, #usabilitycolumn, #covidmoodcolumn, #descriptioncolumn_left, #descriptioncolumn_right, #descriptioncolumnmini_left, #descriptioncolumnmini_right, #aboutdescriptioncolumn_left, #aboutdescriptioncolumn_right, #aboutdescriptioncolumn_right, #msiusabilitycolumn_left, #msiusabilitycolumn_right{width: 100%; float: none}}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){#prev, #next{top:280px}}
+@media only screen and (min-width: 768px) and (max-width: 991px){#prev, #next{top:230px}}
+@media only screen and (min-width: 576px) and (max-width: 767px){#prev, #next{top:130px}}
+@media (max-width: 575px){#prev, #next{top:140px}}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){ #next{right:-10px}}
+@media only screen and (min-width: 768px) and (max-width: 991px){#next{right:-10px}}
+@media only screen and (min-width: 576px) and (max-width: 767px){#next{right:-10px}}
+@media (max-width: 575px){#next{right:10px}}
+@media (max-width: 575px){#prev{left:-10px}}
 #finding{
 margin: auto}
 
