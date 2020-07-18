@@ -196,13 +196,17 @@
                             
                             <hr>
                             <div id="cardsorting">
-                            <div class="details-img mb-40" id="cardsortingcolumn">
-                            <img src="assets/img/gallery/anticardsorting.png" alt="">
-                            </div>
-                            <div id="cardsortingcolumn">
+                                 <div id="cardsortingcolumn_right">
+                                <br>
                             <h4>Card Sorting and Tree Testing</h4>
                             <p>There is a mass of information and services on the target website.</p><p> We used Card Sorting and Tree Testing methods with the current website to see how users think the content should be grouped and what the proper hierarchy is. Based on the results, we made some adjustments to the content of cards and categories and did a Tree Testing with redesign version to confirm that the website structure that we redesigned makes sense.   </p>
                         </div>    
+                            <div class="details-img mb-40" id="cardsortingcolumn_left">
+                            <a  id="prev"> &lt; </a>
+                            <a  id="next"> > </a>
+                            <img id="img1" alt="">
+                            </div>
+                           
                         </div>
                             <hr>
                              
@@ -214,7 +218,7 @@
                                 2. Users enjoy learning details about their future pets.<br>
                                 3. Users got confused with the category names of the navigation bar.<br>
                                 4. The navigation section in the existing website is not easy to use.<br>
-                                5. The existing website hides some important information.<br>
+                                5. The existing website hides some important information, like application form.<br>
                                 </p>
                                       </div>
     
@@ -326,6 +330,38 @@
     <div id="back-top" >
         <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
     </div>
+       
+<script>
+    window.onload = function(){
+        var prev = document.getElementById('prev');
+        var next = document.getElementById('next');
+        var img1 = document.getElementById('img1');
+
+        var arrUrl = [  'assets/img/gallery/anticardsorting.png','assets/img/gallery/antidendrograms.png'];
+   
+        var num = 0;
+        // 初始化显示内容
+        function fnTab(){//重复的代码要用函数包起来
+            img1.src = arrUrl[num];//动态获取数组中图片，先加载第一张图片，因为num是0
+        }
+        fnTab();//调用函数，fnTab()代表执行函数里面的三行代码
+
+        next.onclick = function(){
+            num ++;//num自增1
+            if(num == arrUrl.length){//如果num的值超过数组的长度
+                num = 0;//恢复到第一张图片（数组中是从0 开始数）
+            }               
+            fnTab();// 然后相应加载的内容进行变动
+        }
+        prev.onclick = function(){
+            num --;
+            if(num == -1){
+                num = arrUrl.length - 1;//如果图片已经在第一张，还点击上一张，那么让图片显示最后一张，即数组长度减1为数组最后一张图片
+            }
+            fnTab();
+        }
+    }
+</script>
 
 
     <!-- JS here -->
